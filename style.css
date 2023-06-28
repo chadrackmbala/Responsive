@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding de 10 px pour laisser des espaaces autour du contenu */
+    padding: 10px;
+    background-color: #D9D9D9;
+}
+.logo img {
+    width: 15vw;
+}
+.classe h4 {
+    display: flex;
+    justify-content: end;
+    font-size: 1em;
+}   
+.main .academie {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('./Images/bg-academie.jpg');
+    background-size: cover;
+    padding: 200px;
+}
+.text {
+    z-index: 1;
+}
+h1 {
+    font-size: 6em;
+    font-weight: 700;
+    color: #fff;
+}
+.p-academie {
+    color: #fff;
+    font-weight: 500;
+    font-size: 36px;
+    /* width: 800px; */
+}
+.overley {
+    position: absolute;
+    background: rgb(0,0,0, 0.5);
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.programme, .moment-fort {
+    background-color: #D9D9D9;
+    padding: 50px;
+}
+.programme .blocks {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h2 {
+    text-align: center;
+}
+.icons {
+    height: 130px;
+    width: 130px;
+}
+.img-title {
+    color: #000;
+}
+.paragraph-icons {
+    width: 284px;
+    text-align: center;
+    margin: 10px;
+}
+.bloc-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-title {
+    margin-top: 20px;
+}
+.projet {
+    background-color: #D39393;
+    padding: 50px;
+}
+.container-projet {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.block-projet {
+    width: 600px;
+}
+.img-projet {
+    width: 200px;
+    height: 200px;
+}
+.description-projet {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.end-description {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+}
+.bouton {
+    background-color: #fff;
+    color: #000;
+    width: 100px;
+    text-align: center;
+    transition: all 500ms;
+}
+.bouton:hover {
+    font-size: 20px;
+    background-color: darkred;
+    color: #fff;
+    transition: all 500ms;
+}
+.block {
+    display: flex;
+    align-items: center;
+}
+.description-projet {
+    margin: 20px;
+}
+.tea-cozy {
+    display: flex;
+    justify-content: end;
+}
+@media screen and (max-width: 400px) {
+    .block-projet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .img-projet {
+        display: flex;
+        align-items: center;
+    }
+    .img-projet img {
+        width: 150px;
+        height: 150px;
+
+    }
+}
+.img-container-moment-fort {
+    /* width: 1500px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img-container-moment-fort img {
+    margin: 30px;
+}
+@media screen and (max-width: 400px) {
+    
+}
+.coachs {
+    background-color: #D39393;
+    padding: 5%;
+}
+.block-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.coach-img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.francois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.randy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #D9D9D9;
+}
+.equipe-img {
+    margin-top: 50px;
+}
+.footer {
+    background-color: #D39393;
+}
+.footer {
+    padding: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.block-moment-fort-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 400px) {
+    .logo img {
+        width: 25vw;
+    }
+    .classe {
+        font-size: 3vw;
+    }
+    .classe h4 {
+        display: flex;
+        justify-content: end;
+        font-size: 1em;
+    }
+    .footer {
+        font-size: 3vw;
+        padding: 10px;
+    }
+    .footer p {
+        font-size: 1.5em;
+    }
+    .main .academie {
+        padding: 20px;
+        height: 200px;
+    }
+    .text {
+        font-size: 3vw;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    .p-academie {
+        color: #fff;
+        font-weight: 500;
+        font-size: 1em;
+    }
+    .francois img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+    }
+    .francois p {
+        text-align: center;
+    }
+    .randy img {
+        width: 100px;
+        height: 100px;
+    }
+    .randy p {
+        text-align: center;
+    }
+    .equipe-img img {
+        width: 300px;
+        height: 200px;
+    }
+    .equipe-img {
+        margin-top: 10px;
+    }
+    .equipe {
+        padding: 10px;
+    }
+    .block-moment-fort-container {
+        display: flex;
+        justify-content: center;
+    }
+    .img-container-moment-fort img {
+        margin: 0 10px;
+        margin-top: 30px;
+        width: 100px;
+    }
+    
+}
